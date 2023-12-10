@@ -1,0 +1,13 @@
+{
+  "name": "expo-pnpm",
+  "version": "1.0.0",
+  "description": "An Expo monorepo using pnpm.",
+  "packageManager": "pnpm",
+  "scripts": {
+    "start": "pnpm --filter @org/app start",
+    "clean": "rm -rf node_modules && pnpm -r run clean"
+  },
+  "keywords": [],
+  "author": "mauzybwy@gmail.com",
+  "license": "MIT"
+}
