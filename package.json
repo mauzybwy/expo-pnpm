@@ -5,7 +5,9 @@
   "packageManager": "pnpm",
   "scripts": {
     "start": "pnpm --filter @org/app start",
-    "clean": "rm -rf node_modules && pnpm -r run clean"
+    "clean": "rm -rf node_modules && pnpm -r run clean",
+    "story": "pnpm --filter @org/storybook storybook",
+    "story:device": "pnpm --filter @org/storybook start"
   },
   "keywords": [],
   "author": "mauzybwy@gmail.com",
